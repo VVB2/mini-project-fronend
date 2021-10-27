@@ -51,13 +51,13 @@ const Orders = ({ user }) => {
   const [orders, setOrders] = useState([]);
   const productDetails = [];
   const handleShopping = () => {
-    window.location.href = 'https://artifacts-shop.herokuapp.com/cart';
+    window.location.href = 'https://objective-shirley-a0624b.netlify.app/cart';
   };
   const handleLogout = () => {
     localStorage.removeItem('authToken');
     sessionStorage.removeItem('checkoutInfo');
     sessionStorage.removeItem('userInfo');
-    window.location.href = 'https://eloquent-wilson-92d008.netlify.app/';
+    window.location.href = 'https://objective-shirley-a0624b.netlify.app';
   };
   useEffect(() => {
     const fetchData = async () => {

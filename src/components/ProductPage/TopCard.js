@@ -47,7 +47,8 @@ const TopCard = ({ data, images, user }) => {
       process.env.REACT_APP_JWT_SECRET
     );
     sessionStorage.setItem('checkoutInfo', checkOutInfo);
-    window.location.href = 'https://artifacts-shop.herokuapp.com/checkout';
+    window.location.href =
+      'https://objective-shirley-a0624b.netlify.app/checkout';
   };
   const handleAddToCart = async () => {
     if (user.username) {
@@ -64,7 +65,8 @@ const TopCard = ({ data, images, user }) => {
         console.log(error);
       }
     } else {
-      window.location.href = 'https://artifacts-shop.herokuapp.com/login';
+      window.location.href =
+        'https://objective-shirley-a0624b.netlify.app/login';
     }
   };
   return (

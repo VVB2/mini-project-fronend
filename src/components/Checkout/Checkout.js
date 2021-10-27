@@ -43,7 +43,8 @@ const Checkout = () => {
         }
       );
     } else {
-      window.location.href = 'https://eloquent-wilson-92d008.netlify.app/cart';
+      window.location.href =
+        'https://objective-shirley-a0624b.netlify.app/cart';
     }
   }, []);
   return (
