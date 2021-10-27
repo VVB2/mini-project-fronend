@@ -43,7 +43,7 @@ const Checkout = () => {
         }
       );
     } else {
-      window.location.href = 'http://localhost:3000/cart';
+      window.location.href = 'https://artifacts-shop.herokuapp.com/cart';
     }
   }, []);
   return (
