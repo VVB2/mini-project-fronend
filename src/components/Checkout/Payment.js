@@ -73,7 +73,8 @@ const Payment = ({ back, cartInfo, shippingData }) => {
         })
         .then(() => {
           setLoading(false);
-          window.location.href = 'https://artifacts-shop.herokuapp.com/orders';
+          window.location.href =
+            'https://eloquent-wilson-92d008.netlify.app/orders';
         });
     }
   };

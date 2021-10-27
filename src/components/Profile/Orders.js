@@ -57,7 +57,7 @@ const Orders = ({ user }) => {
     localStorage.removeItem('authToken');
     sessionStorage.removeItem('checkoutInfo');
     sessionStorage.removeItem('userInfo');
-    window.location.href = 'https://artifacts-shop.herokuapp.com';
+    window.location.href = 'https://eloquent-wilson-92d008.netlify.app/';
   };
   useEffect(() => {
     const fetchData = async () => {

@@ -37,7 +37,8 @@ const Cart = ({ user }) => {
       process.env.REACT_APP_JWT_SECRET
     );
     sessionStorage.setItem('checkoutInfo', checkOutInfo);
-    window.location.href = 'https://artifacts-shop.herokuapp.com/checkout';
+    window.location.href =
+      'https://eloquent-wilson-92d008.netlify.app/checkout';
   };
   const handleMultipleCheckout = (cartInfo, userDetails) => {
     const info = [];
@@ -57,10 +58,12 @@ const Cart = ({ user }) => {
       process.env.REACT_APP_JWT_SECRET
     );
     sessionStorage.setItem('checkoutInfo', checkOutInfo);
-    window.location.href = 'https://artifacts-shop.herokuapp.com/checkout';
+    window.location.href =
+      'https://eloquent-wilson-92d008.netlify.app/checkout';
   };
   const handleShopping = () => {
-    window.location.href = 'https://artifacts-shop.herokuapp.com/products?p=1';
+    window.location.href =
+      'https://eloquent-wilson-92d008.netlify.app/products?p=1';
   };
   const classes = useStyles();
   const [cartData, setCartData] = useState([]);

@@ -43,7 +43,7 @@ const Checkout = () => {
         }
       );
     } else {
-      window.location.href = 'https://artifacts-shop.herokuapp.com/cart';
+      window.location.href = 'https://eloquent-wilson-92d008.netlify.app/cart';
     }
   }, []);
   return (

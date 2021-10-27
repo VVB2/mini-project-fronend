@@ -46,7 +46,7 @@ const LoginScreen = () => {
           config
         );
         localStorage.setItem('authToken', data.token);
-        window.location.href = 'https://artifacts-shop.herokuapp.com';
+        window.location.href = 'https://eloquent-wilson-92d008.netlify.app/';
       } catch (error) {
         setLoginStatus(error.response.data.error);
       }

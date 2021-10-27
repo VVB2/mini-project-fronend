@@ -88,7 +88,7 @@ const Header = ({ data, isLoggedIn, user }) => {
             )}
             onChange={(event, value) => {
               if (value !== null) {
-                window.location.href = `https://artifacts-shop.herokuapp.com/product/${value}`;
+                window.location.href = `https://eloquent-wilson-92d008.netlify.app/product/${value}`;
               }
             }}
           />
@@ -98,9 +98,9 @@ const Header = ({ data, isLoggedIn, user }) => {
             color="inherit"
             onClick={() => {
               if (isLoggedIn)
-                window.location.href = `https://artifacts-shop.herokuapp.com/cart`;
+                window.location.href = `https://eloquent-wilson-92d008.netlify.app/cart`;
               else
-                window.location.href = `https://artifacts-shop.herokuapp.com/login`;
+                window.location.href = `https://eloquent-wilson-92d008.netlify.app/login`;
             }}
             style={{ margin: 'auto 20px' }}
           >
